@@ -1,0 +1,35 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/index/points-detail",
+    "pages/homework/homework"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#222",
+    "navigationBarTitleText": "VB学习手册",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#D9DADA",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "selectedColor": "#ffcd32",
+    "backgroundColor": "#222",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "common/home.png",
+        "selectedIconPath": "common/home_selected.png"
+      },
+      {
+        "pagePath": "pages/homework/homework",
+        "text": "作业",
+        "iconPath": "common/homework.png",
+        "selectedIconPath": "common/homework_selected.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+<view class="point-detail">
+  <view class="point-detail-title">{{title}}</view>
+  <scroll-view scroll-y scroll-x style="height: 100%;" bindscrolltoupper="upper" bindscrolltolower="lower" bindscroll="scroll" scroll-top="{{scrollTop}}">
+    <rich-text nodes="{{content}}">
+    </rich-text>
+  </scroll-view>
+</view>

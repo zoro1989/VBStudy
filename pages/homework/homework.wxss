@@ -1,0 +1,15 @@
+page {
+  background-color: #222;
+}
+.homework {
+  height: 100%;
+  display: flex;
+  font-size: 28rpx;
+  flex-direction: column;
+  color: #ffcd32;
+}
+.goDetail{
+  margin-top: 30rpx;
+  background-color: #333;
+  color: #ffcd32;
+}

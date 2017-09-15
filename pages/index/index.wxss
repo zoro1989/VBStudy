@@ -1,0 +1,41 @@
+/**index.wxss**/
+page {
+  background-color: #222;
+}
+.point-list {
+  height: 100%;
+  display: flex;
+  font-size: 28rpx;
+  flex-direction: column;
+  color: #ffcd32;
+}
+.point-group{
+  flex: 1
+}
+.point-title {
+  padding: 15rpx;
+}
+.point-items {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20rpx;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+}
+.point-item {
+  background-color: #333;
+  display: flex;
+  align-items: center;
+  padding: 10rpx;
+  border-radius: 5rpx;
+}
+.point-idx {
+  width: 40rpx;
+  height: 40rpx;
+  text-align: center;
+  border-radius: 50%;
+  background: #ffcd32;
+  color: #222;
+  font-weight: bold;
+  border: 3px solid #fff;
+}

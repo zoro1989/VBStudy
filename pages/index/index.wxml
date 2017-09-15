@@ -1,0 +1,12 @@
+<scroll-view class="point-list" scroll-y bindscrolltoupper="upper" bindscrolltolower="lower" bindscroll="scroll" scroll-top="{{scrollTop}}">
+  <view wx:for="{{pointlist}}" wx:for-item="group" class="point-group">
+    <view class="point-title">{{group.title}}</view>
+    <view class="point-items" wx:for="{{group.items}}">
+      <view class="point-item" bindtap="clickItem" data-id="{{item.id}}">
+        <view class="point-idx">{{index + 1}}</view>
+        <text class="point-title">{{item.title}}</text>
+      </view>
+    </view>
+  </view>
+    
+</scroll-view>
